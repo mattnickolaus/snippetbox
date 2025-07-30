@@ -17,7 +17,7 @@ func home(w http.ResponseWriter, r *http.Request) {
 		"./ui/html/partials/nav.tmpl",
 	}
 
-	// the ... passes in the values as arguments one at a time from the files slice
+	// the "..." passes in the values as arguments one at a time from the files slice
 	ts, err := template.ParseFiles(files...)
 	if err != nil {
 		log.Print(err.Error())
