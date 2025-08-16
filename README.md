@@ -1,6 +1,6 @@
 # snippetbox
 
-![Snippet Box image](ui/static/img/logo.png)
+![Snippet Box image](ui/static/img/snippet_box_example.png)
 
 
 An application which lets people paste and share snippets of text, a bit like Pastebin or GitHub’s Gists.
